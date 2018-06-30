@@ -17,7 +17,7 @@
 
     <modules>
         <module>renren-common</module>
-        <module>renren-admin</module>
+        <module>blog-admin</module>
         <module>renren-api</module>
         <module>renren-generator</module>
     </modules>
@@ -147,6 +147,11 @@
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>${joda.time.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
